@@ -1,9 +1,10 @@
-** DIR TREE - A tool for printing a directory tree and indicating the space it occupies. **
+# DIR TREE - A tool for printing a directory tree and indicating the space it occupies.
 
-Usage:
+
+## Usage:
   main_with_size [OPTIONS] [Path]
 
-Application Options:
+Application keys:
       --max-depth= maximum depth in output (default: 0)
       --only-dirs= print only directory sizes (no files) [yes|no] (default: no)
       --colorize=  Use colorized output [yes|no] (default: yes)
@@ -11,21 +12,20 @@ Application Options:
 Help Options:
   -h, --help       Show this help message
 
-Usage example:
+## Usage example:
 main_with_size.go  /usr   --only-dirs=yes  --max-depth=2
 OR
 main_with_size.go  --only-dirs=yes  --max-depth=2  --colorize=no /usr
+OR any combination
 
-
-Dependencies
+## Dependencies
     "github.com/TwiN/go-color"
     "github.com/jessevdk/go-flags"
 
-    go get github.com/TwiN/go-color
-    go get github.com/jessevdk/go-flags
 
-
-
-Output example:
+## Output example:
 ![Screenshot](./screenshot1.png)
 
+
+
+This is my first GoLang program, don't throw tomatoes
