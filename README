@@ -1,6 +1,5 @@
 # DIR TREE - A tool for printing a directory tree and indicating the space it occupies.
 
-
 ## Usage:
   main_with_size [OPTIONS] [Path]
 
@@ -22,10 +21,7 @@ OR any combination
     "github.com/TwiN/go-color"
     "github.com/jessevdk/go-flags"
 
-
 ## Output example:
 ![Screenshot](./screenshot1.png)
-
-
 
 This is my first GoLang program, don't throw tomatoes
